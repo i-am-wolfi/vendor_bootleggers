@@ -96,9 +96,8 @@ endif
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Include explicitly to work around GMS issues
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
-    librsjni
+# sixteen: disabled legacy protobuf
+#PRODUCT_PACKAGES += libprotobuf-cpp-full librsjni
 
 # Extra tools in Bootleggers
 PRODUCT_PACKAGES += \
