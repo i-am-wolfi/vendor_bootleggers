@@ -210,3 +210,7 @@ PRODUCT_PACKAGES += \
 # Lineage HALs framework compatibility (mirrors vendor/lineage common.mk)
 PRODUCT_PACKAGES += \
     framework_compatibility_matrix.lineage.xml
+
+# Required by lineage-sdk LineageActivityManager (system_server needs LineageSettings provider)
+PRODUCT_PACKAGES += \
+    LineageSettingsProvider
