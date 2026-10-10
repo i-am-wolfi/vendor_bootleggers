@@ -1,22 +1,5 @@
 // Bootleggers soong configs
 
-bootstrap_go_package {
-    name: "soong-bootleggers-generator",
-    pkgPath: "bootleggers/soong/generator",
-    deps: [
-        "blueprint",
-        "blueprint-pathtools",
-        "soong",
-        "soong-android",
-        "soong-shared",
-    ],
-    srcs: [
-        "generator/generator.go",
-        "generator/variables.go",
-    ],
-    pluginFor: ["soong_build"],
-}
-
 custom_generator {
     name: "generated_kernel_includes",
 
