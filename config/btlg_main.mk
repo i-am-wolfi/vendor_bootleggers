@@ -21,3 +21,8 @@ include vendor/bootleggers/config/btlg_branding.mk
 
 # Call special ringtones makefile
 include vendor/bootleggers/config/common_audio.mk
+
+# Lineage SDK (org.lineageos.platform + permissions, mirrors vendor/lineage common.mk)
+ifneq ($(TARGET_DISABLE_LINEAGE_SDK),true)
+include vendor/lineage/config/lineage_sdk_common.mk
+endif
