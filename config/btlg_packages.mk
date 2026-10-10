@@ -106,3 +106,7 @@ PRODUCT_PACKAGES += \
 #PRODUCT_BOOT_JARS += \
 #    org.dirtyunicorns.utils
 #
+
+# Bootleggers overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+        vendor/bootleggers/overlay/qrscan/aperture

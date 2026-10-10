@@ -219,3 +219,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageParts \
     LineageSetupWizard
+
+PRODUCT_PACKAGE_OVERLAYS += vendor/bootleggers/overlay/common
