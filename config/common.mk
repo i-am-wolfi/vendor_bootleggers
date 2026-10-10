@@ -214,3 +214,8 @@ PRODUCT_PACKAGES += \
 # Required by lineage-sdk LineageActivityManager (system_server needs LineageSettings provider)
 PRODUCT_PACKAGES += \
     LineageSettingsProvider
+
+# Lineage apps required by Settings dashboard (LiveDisplay parts, setup)
+PRODUCT_PACKAGES += \
+    LineageParts \
+    LineageSetupWizard
