@@ -198,7 +198,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/bootleggers/overlay/common
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
--include vendor/bootleggers/config/partner_gms.mk
+# -include vendor/bootleggers/config/partner_gms.mk
 
 include vendor/bootleggers/config/btlg_main.mk
 
