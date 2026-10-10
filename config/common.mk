@@ -209,3 +209,7 @@ include vendor/bootleggers/config/btlg_main.mk
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NavigationBarModeGesturalOverlayFS
+
+# Lineage HALs framework compatibility (mirrors vendor/lineage common.mk)
+PRODUCT_PACKAGES += \
+    framework_compatibility_matrix.lineage.xml
