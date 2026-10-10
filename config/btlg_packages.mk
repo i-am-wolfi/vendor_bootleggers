@@ -24,8 +24,6 @@ ifeq ($(BOOTLEGGERS_DEVICE_SUPPORTS_APERTURE),true)
     PRODUCT_PACKAGES += \
         Aperture
 
-    PRODUCT_PACKAGE_OVERLAYS += \
-        vendor/bootleggers/overlay/qrscan/aperture
 else
     PRODUCT_PACKAGES += \
         Camera2
@@ -62,14 +60,12 @@ endif
 # Please, prepare for reports
 ifeq ($(BOOTLEGGERS_SITDOWN),true)
     PRODUCT_PACKAGES += \
-        Lawnchair
+        Launcher3QuickStep
 
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/lawnchair/etc/permissions/privapp-permissions-lawnchair.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lawnchair.xml \
     vendor/bootleggers/prebuilt/lawnchair/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
-    PRODUCT_PACKAGE_OVERLAYS += \
-        vendor/bootleggers/overlay/lawnchair
 else
     PRODUCT_PACKAGES += \
         Launcher3QuickStep

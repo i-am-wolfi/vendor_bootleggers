@@ -160,8 +160,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
 # Disable rescue party
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.disable_rescue=true
 
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
@@ -199,7 +197,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     sys.fflag.override.settings_volume_panel_in_systemui=true
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/bootleggers/overlay/common
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 # -include vendor/bootleggers/config/partner_gms.mk
