@@ -5,7 +5,6 @@ PRODUCT_PACKAGES += \
     LatinIME \
     MiXplorerPrebuilt \
     OmniStyle \
-    OmniJaws \
     ShishufiedHeaders \
     ShishufiedWalls \
     ThemePicker
