@@ -110,3 +110,8 @@ PRODUCT_PACKAGES += \
 # Bootleggers overlays
 PRODUCT_PACKAGE_OVERLAYS += \
         vendor/bootleggers/overlay/qrscan/aperture
+
+# Bootleggers apps
+PRODUCT_PACKAGES += \
+    BootlegDumpster \
+    ThemePicker
