@@ -229,3 +229,7 @@ PRODUCT_COPY_FILES += vendor/bootleggers/bootanimation/bootleggers-bootanimation
 # Lineage black theme backend (Berry pure black toggle needs it)
 PRODUCT_PACKAGES += \
     LineageBlackTheme
+
+# Bootleggers main (packages, branding, shishu) + version props
+include vendor/bootleggers/config/btlg_main.mk
+include vendor/bootleggers/build/core/main_version.mk
