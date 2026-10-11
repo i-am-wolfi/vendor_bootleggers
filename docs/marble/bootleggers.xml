@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="i-am-wolfi/vendor_bootleggers" path="vendor/bootleggers" remote="github" revision="sixteen" />
+  <project name="i-am-wolfi/vendor_shishufied" path="vendor/shishufied" remote="github" revision="sixteen" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <project name="i-am-wolfi/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="sixteen" />
+  <project name="i-am-wolfi/packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="github" revision="sixteen" />
+  <project name="i-am-wolfi/packages_apps_BootlegDumpster" path="packages/apps/BootlegDumpster" remote="github" revision="sixteen" />
 </manifest>
