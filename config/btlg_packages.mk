@@ -116,3 +116,4 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     ThemePicker \
     BootlegDumpster
+    OmniJaws \
