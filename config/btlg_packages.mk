@@ -6,7 +6,7 @@ PRODUCT_PACKAGES += \
     MiXplorerPrebuilt \
     OmniStyle \
     ShishufiedHeaders \
-    ShishufiedWalls \
+    ShishuWalls \
     ThemePicker
 
 ## Setting this as true to build our main apps, can be disabled
