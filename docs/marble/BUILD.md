@@ -9,3 +9,4 @@ source build/envsetup.sh
 lunch bootleggers_marble-bp4a-userdebug   # ou -eng p/ debug
 export USE_CCACHE=1 CCACHE_DIR=~/ccache; ccache -M 100G
 LINEAGE_BUILD=marble mka bacon -j$(nproc --all)
+REMOVIDO localmente: vendor/lineage/build/tasks/bacon.mk (recriado pelo repo sync; apagar de novo)
