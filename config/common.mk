@@ -221,3 +221,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/bootleggers/overlay/common
+
+# Bootleggers bootanimation (replaces AOSP default)
+PRODUCT_PACKAGES := $(filter-out bootanimation.zip,$(PRODUCT_PACKAGES))
+PRODUCT_COPY_FILES += vendor/bootleggers/bootanimation/bootleggers-bootanimation.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
