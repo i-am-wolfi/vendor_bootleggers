@@ -203,6 +203,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 include vendor/bootleggers/config/btlg_main.mk
 
+# Telephony (messaging/Stk/CB/APNs) - was orphaned, nothing included it
+include vendor/bootleggers/config/telephony.mk
+
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NavigationBarModeGesturalOverlayFS
@@ -230,6 +233,5 @@ PRODUCT_COPY_FILES += vendor/bootleggers/bootanimation/bootleggers-bootanimation
 PRODUCT_PACKAGES += \
     LineageBlackTheme
 
-# Bootleggers main (packages, branding, shishu) + version props
-include vendor/bootleggers/config/btlg_main.mk
+# Bootleggers main version props (A16: PRODUCT_SYSTEM_PROPERTIES)
 include vendor/bootleggers/build/core/main_version.mk

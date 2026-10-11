@@ -56,9 +56,10 @@ endif
 
 # Launcher Selection just in case
 # Please, prepare for reports
+BOOTLEGGERS_SITDOWN ?= true
 ifeq ($(BOOTLEGGERS_SITDOWN),true)
     PRODUCT_PACKAGES += \
-        Launcher3QuickStep
+        Lawnchair
 
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/lawnchair/etc/permissions/privapp-permissions-lawnchair.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lawnchair.xml \
