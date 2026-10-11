@@ -17,7 +17,7 @@ include vendor/bootleggers/config/btlg_packages.mk
 include vendor/bootleggers/config/btlg_branding.mk
 
 # Call the shishufied vendor to build all the personalization part
-#include vendor/shishufied/config.mk
+include vendor/shishufied/config.mk
 
 # Call special ringtones makefile
 include vendor/bootleggers/config/common_audio.mk
