@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     messaging \
     Stk \
-    CellBroadcastReceiver
+    CellBroadcastApp
 
 # Tethering - allow without requiring a provisioning app
 # (for devices that check this)
