@@ -115,5 +115,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Bootleggers apps
 PRODUCT_PACKAGES += \
     ThemePicker \
-    BootlegDumpster
-    OmniJaws \
+    BootlegDumpster \
+    OmniJaws

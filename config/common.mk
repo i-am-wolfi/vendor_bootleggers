@@ -201,7 +201,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 # -include vendor/bootleggers/config/partner_gms.mk
 
-include vendor/bootleggers/config/btlg_main.mk
+#TMP #TMP #TMP include vendor/bootleggers/config/btlg_main.mk
 
 # Telephony (messaging/Stk/CB/APNs) - was orphaned, nothing included it
 include vendor/bootleggers/config/telephony.mk
@@ -234,4 +234,4 @@ PRODUCT_PACKAGES += \
     LineageBlackTheme
 
 # Bootleggers main version props (A16: PRODUCT_SYSTEM_PROPERTIES)
-include vendor/bootleggers/build/core/main_version.mk
+#TMP #TMP #TMP include vendor/bootleggers/build/core/main_version.mk
