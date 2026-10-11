@@ -56,7 +56,9 @@ endif
 
 # Launcher Selection just in case
 # Please, prepare for reports
-BOOTLEGGERS_SITDOWN ?= true
+# NOTE: Lawnchair prebuilt is currently broken on A16, keep default off
+# (Launcher3QuickStep) until its APK is fixed. Set BOOTLEGGERS_SITDOWN=true
+# to ship Lawnchair instead.
 ifeq ($(BOOTLEGGERS_SITDOWN),true)
     PRODUCT_PACKAGES += \
         Lawnchair
